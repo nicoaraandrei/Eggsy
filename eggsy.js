@@ -379,7 +379,6 @@ var Board = (function () {
             col = Math.round((piece.y - this.y) / SIDE);
             piece.x = this.x + row * SIDE;
             piece.y = this.y + col * SIDE;
-            document.getElementById("pos").innerHTML = "Position: " + piece.x + "  " + piece.y;
             this.pieces.push(piece);
         }
         else {

@@ -401,7 +401,6 @@ class Board {
 
             piece.x = this.x + row * SIDE;
             piece.y = this.y + col * SIDE;
-            document.getElementById("pos").innerHTML = "Position: " + piece.x + "  " + piece.y;
             this.pieces.push(piece);
         }
 
